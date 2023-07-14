@@ -20,4 +20,4 @@ jobs:
 
     - name: Deploy via SCP
       run: |
-        scp -i <(echo -e "${{ secrets.SSH_PRIVATE_KEY }}") example.py demo@${{ secrets.GCE_IP }}:/home/demo/
+        sudo scp -o StrictHostKeyChecking=no -i <(echo -e "${{ secrets.SSH_PRIVATE_KEY }}") example.py demo@${{ secrets.GCE_IP }}:/home/demo/
