@@ -1,0 +1,647 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+height: 740
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse
+      id: collapse
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 1186
+  viewPortHeight: 740
+  horizontalOffset: -143
+  verticalOffset: -67
+addInfo:
+  stages:
+    - control: prepend
+      class: p-button-secondary
+      icon: pi pi-plus
+    - name: Define
+      id: define
+      progress: 100
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#689F38"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - name: Measure
+      id: measure
+      progress: 0
+      details: ""
+      delayed: true
+      atRisk: true
+      blocked: true
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - name: Anayze
+      id: analyze
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - name: Improve
+      id: improve
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - name: Control
+      id: control
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#D32F2F"
+      dates:
+        - {}
+        - {}
+      datesEnabled: false
+    - control: append
+      class: p-button-secondary
+      icon: pi pi-plus
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+connectors:
+  - id: Straight ConnectoruZrQr
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 262
+      y: 279.73
+    targetPoint:
+      x: 166
+      y: 294.27
+    sourceID: SeleniumDFgUn
+    targetID: Web ApplicationO5n6e
+    addInfo:
+      viewConnector: 0
+    zIndex: 2
+  - id: Dashed Straight ConnectorPaAeu
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 606
+      y: 319.81
+    targetPoint:
+      x: 562
+      y: 305.56
+    sourceID: PythoniPgf7
+    targetID: SeleniumDFgUn
+    addInfo:
+      viewConnector: 0
+    zIndex: 4
+  - id: Dashed Straight ConnectorsghHK
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 412
+      y: 367
+    targetPoint:
+      x: 412
+      y: 307
+    sourceID: Compute EngineaT1yw
+    targetID: SeleniumDFgUn
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+  - id: Dashed Straight ConnectorlNa54
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 750
+      y: 257
+    targetPoint:
+      x: 562
+      y: 257
+    sourceID: GitHubwxICM
+    targetID: SeleniumDFgUn
+    addInfo:
+      viewConnector: 0
+    zIndex: 8
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #BE2A34;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Selenium_Black_87_l3zrkm.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Selenium_Red_asshq2.png);"></div><div
+        class="c-text"><div class="c-title">Selenium</div><div
+        class="c-short-description">Automating web browsers for testing and web
+        scraping purposes</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Selenium</div></div></div></div></div>'
+    id: SeleniumDFgUn
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Selenium
+        shortDescription: Automating web browsers for testing and web scraping purposes
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Selenium
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Selenium
+      editableName: Selenium
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Quality Gate
+          type: Gate
+          portsIn:
+            job: deployed
+            activation: pass
+            deactivation: fail
+          portsOut:
+            job: deployed
+      dynamicsViews:
+        - type: Gate
+          status: Idle
+          name: Quality Gate
+      name: Selenium
+      category: 1
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Selenium_Red_asshq2.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Selenium__044448_asijk8.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Selenium_Black_87_l3zrkm.png
+      color: "#BE2A34"
+      controlText: Selenium
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 412
+    offsetY: 257
+    zIndex: 0
+    inEdges:
+      - Dashed Straight ConnectorPaAeu
+      - Dashed Straight ConnectorsghHK
+      - Dashed Straight ConnectorlNa54
+    outEdges:
+      - Straight ConnectoruZrQr
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine_Black_87_hlfiaq.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine_rluunv.png);"></div><div
+        class="c-text"><div class="c-title">Compute Engine</div><div
+        class="c-short-description">Running scalable and high-performance
+        virtual machines</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Compute EngineaT1yw
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Compute Engine
+        shortDescription: Running scalable and high-performance virtual machines
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Compute Engine
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Compute Engine
+      editableName: Compute Engine
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+        - name: Connection Receiver
+          type: Storage
+          portsIn:
+            put: connection
+            get: get
+          portsOut:
+            stored: connection
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+        - type: Storage
+          status: Idle
+          name: Connection Receiver
+      name: Compute Engine
+      category: 3
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine_rluunv.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine__044448_c5wixz.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine_Black_87_hlfiaq.png
+      color: "#3871e0"
+      controlText: Compute Engine
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 412
+    offsetY: 417
+    zIndex: 1
+    outEdges:
+      - Dashed Straight ConnectorsghHK
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3B77A7;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A__Black_87_nciqru.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A_sgxbzs.png);
+        border-radius: 10px"></div></div></div>'
+    id: PythoniPgf7
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Python
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Python
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Python
+      editableName: Python
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Automated Task
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageTaskDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Automated Task
+          AverageTaskDuration: 1
+      name: Python
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A_sgxbzs.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A__044448_g32jqq.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Python_A__Black_87_nciqru.png
+      controlText: Python
+      color: "#3B77A7"
+      selectedDynamicsView: 0
+      collapsed: true
+    width: 100
+    height: 100
+    offsetX: 656
+    offsetY: 336
+    zIndex: 3
+    outEdges:
+      - Dashed Straight ConnectorPaAeu
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3d5c5c;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Web_Application_Black_87_pdwccj.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Web_Application_3d5c5c_iswqan.png);"></div><div
+        class="c-text"><div class="c-title">example.com</div><div
+        class="c-short-description">Simple navigations to confirm the website is
+        up</div><div class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Web Application</div></div></div></div></div>'
+    id: Web ApplicationO5n6e
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Web Application
+        shortDescription: Simple navigations to confirm the website is up
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Web Application
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Web Application
+      editableName: example.com
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Application
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Application
+      name: Web Application
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Web_Application_3d5c5c_iswqan.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Web_Application_Black_zbzaaw.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Web_Application_Black_87_pdwccj.png
+      color: "#3d5c5c"
+      controlText: Web Application
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 16
+    offsetY: 317
+    zIndex: 5
+    inEdges:
+      - Straight ConnectoruZrQr
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #2A2A2A;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GitHub_Black_87_rbjcrb.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GitHub_a1b3qn.png);"></div><div
+        class="c-text"><div class="c-title">GitHub Actions</div><div
+        class="c-short-description">Updating the Selenium script with minimal
+        effort (fully-automated)</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">GitHub</div></div></div></div></div>'
+    id: GitHubwxICM
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: GitHub
+        shortDescription: Updating the Selenium script with minimal effort (fully-automated)
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: GitHub
+      status: N/A
+      size: sm
+      nodeType: html
+      title: GitHub
+      editableName: GitHub Actions
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Code Repository
+          type: Storage
+          portsIn:
+            put: code
+            get: fetch
+          portsOut:
+            stored: code
+        - name: Build Tool
+          type: Processor
+          portsIn:
+            job: code
+          portsOut:
+            job: artifacts
+          serviceTime:
+            exp:
+              lambda: AverageBuildDuration
+        - name: Provisioner
+          type: Processor
+          portsIn:
+            job: configuration
+          portsOut:
+            job: deployed
+          serviceTime:
+            exp:
+              lambda: AverageProvisioningDuration
+        - name: Deployment Tool
+          type: Processor
+          portsIn:
+            job: deployable
+          portsOut:
+            job: deployed
+          serviceTime:
+            exp:
+              lambda: AverageDeploymentDuration
+        - name: Work Item Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: work item
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenWorkItemCreations
+        - name: Artifact Repository
+          type: Storage
+          portsIn:
+            put: artifacts
+            get: fetch
+          portsOut:
+            stored: artifacts
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Code Repository
+        - type: Processor
+          status: Idle
+          name: Build Tool
+          AverageBuildDuration: 1
+        - type: Processor
+          status: Idle
+          name: Provisioner
+          AverageProvisioningDuration: 1
+        - type: Processor
+          status: Idle
+          name: Deployment Tool
+          AverageDeploymentDuration: 1
+        - type: Generator
+          status: Idle
+          name: Work Item Generator
+          AverageTimeBetweenWorkItemCreations: 1
+        - type: Storage
+          status: Idle
+          name: Artifact Repository
+      name: GitHub
+      category: 1
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GitHub_a1b3qn.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GitHub__044448_n66ulb.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GitHub_Black_87_rbjcrb.png
+      color: "#2A2A2A"
+      controlText: GitHub
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 900
+    offsetY: 257
+    zIndex: 7
+    outEdges:
+      - Dashed Straight ConnectorlNa54
+selectedItems:
+  width: 0
+  height: 0
